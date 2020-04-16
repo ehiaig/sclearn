@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>SCY Learn - Find Tutors</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu-2 sticky-top py-3 ">
+        <div
+          class="container d-flex flex-column flex-md-row justify-content-between"
+        >
+          <a class="navbar-brand logo" href="index.html">
+            <strong>SCY Learn</strong>
+          </a>
+          <a class="py-2 d-none d-md-inline-block nav-link" href="#">About</a>
+          <a class="py-2 d-none d-md-inline-block nav-link" href="#">Shop</a>
+          <a class="py-2 d-none d-md-inline-block nav-link" href="resources.html">
+            Resources
+          </a>
+          <a class="py-2 d-none d-md-inline-block nav-link" href="tutors.html">
+            Tutors
+          </a>
+          <a class="py-2 d-none d-md-inline-block nav-link" href="#">Contact</a>
+          <div class=" d-none d-md-inline-block">
+            <a class="btn btn-outline-light my-2 my-sm-0" href="signin.html">
+              Sign in
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="blog-header py-4">
+      <div class="container">
+        <div class="row flex-nowrap justify-content-start align-items-left">
+          <div class="col-md-6 my-3">
+            <h1 class="title">
+              Online Tutors
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light sticky-top shadow-sm">
+      <div class="container filter ">
+        <div class="row py-4">
+          <div class="col-md-6 results">
+            <div class="btn-group">
+              <div class="dropdown mx-2">
+                <button
+                  class="btn btn-success dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Price
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <div class="dropdown mx-2">
+                <button
+                  class="btn btn-success dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Availability
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+    </section>
+    <section class="">
+      <div class="container">
+        <div
+          class="row flex-nowrap justify-content-center align-items-center my-2"
+        >
+          <div class="col-md-3 ">
+            <button
+              type="button"
+              class="btn d-flex align-items-center justify-content-between px-2 btn-light btn-sm"
+            >
+              <span class="font-weight-normal pr-1 small">£15 - £49/hr</span>
+              <span class="fa fa-times text-danger pl-1">
+                &times;
+              </span>
+            </button>
+          </div>
+          <div class="col-md-6 ">
+            <strong> 141 </strong> Online Maths (Degree) tutors found
+          </div>
+          <div class="col-md-3 tutor-breadcrumb ">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="tutors.html">Find Tutors</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Maths Tutors
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container py-4 ">
+        <div class="row res-list">
+          <div class="col-md-12 py-2">
+            <!-- Tutor card -->
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-3"
+            >
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="https://placeimg.com/250/200/people"
+                  alt=""
+                  class="rounded stats-img"
+                />
+              </div>
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Online</strong>
+                <div
+                  class="mt-4 mt-lg-2 d-lg-flex justify-content-between align-items-start"
+                >
+                  <h3 class="mb-0 text-primary">Jackson Gates</h3>
+                  <button class="btn btn-outline-dark btn-sm">
+                    23 repeat students
+                  </button>
+                </div>
+                <p class="mb-4 text-dark lead d-none d-lg-block">
+                  GCSE and A Level Maths Teacher
+                </p>
+                <p class="card-text mb-auto">
+                  I’m a fully qualified secondary school maths teacher and
+                  tutor, able to tutor GCSE (both foundation and higher tiers)
+                  and A Level Maths. I have a maths degree from the University
+                  of Edinburgh and a PGCE from the University of Leeds. I’ve
+                  be...
+                </p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div
+                class="col-lg-3 d-flex flex-column pl-lg-4 pt-3 pt-lg-0 border-left "
+              >
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/elearning.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">I also teach online</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/reply.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">Replies within 3 hours</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-end pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/history.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">25+ hrs taught</p>
+                </div>
+                <div class="mt-auto">
+                  <button class="btn btn-lg btn-success btn-block">
+                    View profile
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Tutor card -->
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-3"
+            >
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="https://placeimg.com/250/200/people"
+                  alt=""
+                  class="rounded stats-img"
+                />
+              </div>
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Online</strong>
+                <div
+                  class="mt-4 mt-lg-2 d-lg-flex justify-content-between align-items-start"
+                >
+                  <h3 class="mb-0 text-primary">Jackson Gates</h3>
+                  <button class="btn btn-outline-dark btn-sm">
+                    23 repeat students
+                  </button>
+                </div>
+                <p class="mb-4 text-dark lead d-none d-lg-block">
+                  GCSE and A Level Maths Teacher
+                </p>
+                <p class="card-text mb-auto">
+                  I’m a fully qualified secondary school maths teacher and
+                  tutor, able to tutor GCSE (both foundation and higher tiers)
+                  and A Level Maths. I have a maths degree from the University
+                  of Edinburgh and a PGCE from the University of Leeds. I’ve
+                  be...
+                </p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div
+                class="col-lg-3 d-flex flex-column pl-lg-4 pt-3 pt-lg-0 border-left "
+              >
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/elearning.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">I also teach online</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/reply.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">Replies within 3 hours</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-end pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/history.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">25+ hrs taught</p>
+                </div>
+                <div class="mt-auto">
+                  <button class="btn btn-lg btn-success btn-block">
+                    View profile
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Tutor card -->
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-3"
+            >
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="https://placeimg.com/250/200/people"
+                  alt=""
+                  class="rounded stats-img"
+                />
+              </div>
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Online</strong>
+                <div
+                  class="mt-4 mt-lg-2 d-lg-flex justify-content-between align-items-start"
+                >
+                  <h3 class="mb-0 text-primary">Jackson Gates</h3>
+                  <button class="btn btn-outline-dark btn-sm">
+                    23 repeat students
+                  </button>
+                </div>
+                <p class="mb-4 text-dark lead d-none d-lg-block">
+                  GCSE and A Level Maths Teacher
+                </p>
+                <p class="card-text mb-auto">
+                  I’m a fully qualified secondary school maths teacher and
+                  tutor, able to tutor GCSE (both foundation and higher tiers)
+                  and A Level Maths. I have a maths degree from the University
+                  of Edinburgh and a PGCE from the University of Leeds. I’ve
+                  be...
+                </p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div
+                class="col-lg-3 d-flex flex-column pl-lg-4 pt-3 pt-lg-0 border-left "
+              >
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/elearning.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">I also teach online</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/reply.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">Replies within 3 hours</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-end pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/history.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">25+ hrs taught</p>
+                </div>
+                <div class="mt-auto">
+                  <button class="btn btn-lg btn-success btn-block">
+                    View profile
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Tutor card -->
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-3"
+            >
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="https://placeimg.com/250/200/people"
+                  alt=""
+                  class="rounded stats-img"
+                />
+              </div>
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Online</strong>
+                <div
+                  class="mt-4 mt-lg-2 d-lg-flex justify-content-between align-items-start"
+                >
+                  <h3 class="mb-0 text-primary">Jackson Gates</h3>
+                  <button class="btn btn-outline-dark btn-sm">
+                    23 repeat students
+                  </button>
+                </div>
+                <p class="mb-4 text-dark lead d-none d-lg-block">
+                  GCSE and A Level Maths Teacher
+                </p>
+                <p class="card-text mb-auto">
+                  I’m a fully qualified secondary school maths teacher and
+                  tutor, able to tutor GCSE (both foundation and higher tiers)
+                  and A Level Maths. I have a maths degree from the University
+                  of Edinburgh and a PGCE from the University of Leeds. I’ve
+                  be...
+                </p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div
+                class="col-lg-3 d-flex flex-column pl-lg-4 pt-3 pt-lg-0 border-left "
+              >
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/elearning.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">I also teach online</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/reply.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">Replies within 3 hours</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-end pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/history.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">25+ hrs taught</p>
+                </div>
+                <div class="mt-auto">
+                  <button class="btn btn-lg btn-success btn-block">
+                    View profile
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Tutor card -->
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-3"
+            >
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="https://placeimg.com/250/200/people"
+                  alt=""
+                  class="rounded stats-img"
+                />
+              </div>
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Online</strong>
+                <div
+                  class="mt-4 mt-lg-2 d-lg-flex justify-content-between align-items-start"
+                >
+                  <h3 class="mb-0 text-primary">Jackson Gates</h3>
+                  <button class="btn btn-outline-dark btn-sm">
+                    23 repeat students
+                  </button>
+                </div>
+                <p class="mb-4 text-dark lead d-none d-lg-block">
+                  GCSE and A Level Maths Teacher
+                </p>
+                <p class="card-text mb-auto">
+                  I’m a fully qualified secondary school maths teacher and
+                  tutor, able to tutor GCSE (both foundation and higher tiers)
+                  and A Level Maths. I have a maths degree from the University
+                  of Edinburgh and a PGCE from the University of Leeds. I’ve
+                  be...
+                </p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div
+                class="col-lg-3 d-flex flex-column pl-lg-4 pt-3 pt-lg-0 border-left "
+              >
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/elearning.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">I also teach online</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/reply.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">Replies within 3 hours</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-end pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/history.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">25+ hrs taught</p>
+                </div>
+                <div class="mt-auto">
+                  <button class="btn btn-lg btn-success btn-block">
+                    View profile
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Tutor card -->
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-3"
+            >
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="https://placeimg.com/250/200/people"
+                  alt=""
+                  class="rounded stats-img"
+                />
+              </div>
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Online</strong>
+                <div
+                  class="mt-4 mt-lg-2 d-lg-flex justify-content-between align-items-start"
+                >
+                  <h3 class="mb-0 text-primary">Jackson Gates</h3>
+                  <button class="btn btn-outline-dark btn-sm">
+                    23 repeat students
+                  </button>
+                </div>
+                <p class="mb-4 text-dark lead d-none d-lg-block">
+                  GCSE and A Level Maths Teacher
+                </p>
+                <p class="card-text mb-auto">
+                  I’m a fully qualified secondary school maths teacher and
+                  tutor, able to tutor GCSE (both foundation and higher tiers)
+                  and A Level Maths. I have a maths degree from the University
+                  of Edinburgh and a PGCE from the University of Leeds. I’ve
+                  be...
+                </p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div
+                class="col-lg-3 d-flex flex-column pl-lg-4 pt-3 pt-lg-0 border-left "
+              >
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/elearning.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">I also teach online</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-center pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/reply.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">Replies within 3 hours</p>
+                </div>
+                <div
+                  class="text-center w-100 stat-right align-items-end pt-3 d-flex  flex-lg-row align-items-center horizontal"
+                >
+                  <img
+                    src="./images/history.svg"
+                    alt="picture"
+                    class="stats-icon"
+                  />
+                  <p class="stats-info ">25+ hrs taught</p>
+                </div>
+                <div class="mt-auto">
+                  <button class="btn btn-lg btn-success btn-block">
+                    View profile
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg--primary">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <a class="navbar-brand logo" href="index.html">
+              SCY Learn
+            </a>
+            <small class="d-block mb-3 text-muted">© 2020</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Business</a></li>
+              <li><a class="text-muted" href="#">Education</a></li>
+              <li><a class="text-muted" href="#">Government</a></li>
+              <li><a class="text-muted" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+    
+  </body>
+</html>

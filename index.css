@@ -1,0 +1,221 @@
+body {
+  background-color: #ffffff;
+  color: #ffffff;
+  font: 300 16px/22px "Open Sans", "Roboto", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 300;
+  position: relative;
+  background-color: #0c4142;
+  min-height: 100vh;
+  background-image: linear-gradient(135deg, #156f71, #223237);
+  /* background-image: radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.5), #156f71) */
+}
+a {
+  color: #16a085;
+}
+
+a:hover {
+  color: #156f71;
+  /* text-decoration: none; */
+}
+.btn {
+  box-shadow: -3px -2px 8px 2px black,
+    inset 1px -1px 15px 0px rgba(0, 0, 0, 0.69);
+}
+
+#masthead {
+  background-size: cover;
+  background-color: #0c4142;
+  /* background-image: radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.5), #156f71); */
+  background-image: linear-gradient(135deg, #156f71, #223237);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.menu-2 .nav-link {
+  color: #ffffff;
+  font-weight: 400;
+}
+.nav-item .active {
+  color: #156f71;
+  text-decoration: none;
+}
+
+.dark-green-card {
+  background-color: #1d2c31;
+  border-radius: 25px;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.min-h-305 {
+  min-height: 305px;
+}
+
+.dark-green-card-img {
+  height: 100px;
+  width: auto;
+}
+
+.inset-button {
+  box-shadow: -3px -2px 8px 2px black,
+    inset 1px -1px 15px 0px rgba(0, 0, 0, 0.69);
+}
+
+.blue-txt-shadow {
+  text-shadow: 0 0 3px #2ca6df;
+}
+
+.masthead:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.78;
+  /* background-color: #16a085; */
+  box-shadow: inset 1px -1px 126px 10px rgba(0, 0, 0, 0.69);
+}
+
+.text-shadow {
+  text-shadow: 0 0.04em 0.04em #232f49;
+}
+
+.bg--primary {
+  background-color: #0c4142;
+  color: #fff;
+}
+
+.menu-2 {
+  color: #fff;
+  background-color: #000000;
+}
+
+.res-list a:hover {
+  color: #16a085;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+/* ======= Tutor =========== */
+.profile-card {
+  box-shadow: 0 2px 4px 0px rgba(115, 166, 227, 0.4);
+  border-radius: 4px;
+  margin: 0;
+  background-color: white;
+}
+
+.online-only[data-v-6815a127] {
+  top: 0;
+  left: -11px;
+}
+
+.repeat-students-badge[data-v-70d5eca4] {
+  position: absolute;
+  background-color: #009acf;
+  color: #ffffff;
+  border-radius: 2px 2px 2px 0;
+  border: 1px solid #009acf;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  z-index: 1;
+  top: 10px;
+  left: -11px;
+}
+
+.stats-icon {
+  height: 30px;
+  margin-bottom: 0.8rem !important;
+}
+
+.stats-info {
+  font-size: 14px;
+  text-align: end;
+  margin-left: 5px;
+}
+.stats-img {
+  height: 250px;
+  width: 200px;
+}
+.tutor-breadcrumb .breadcrumb {
+  background-color: transparent;
+}
+
+/* =================== SIGNIN ============= */
+
+.form-signin {
+  width: 100%;
+  max-width: 370px;
+  padding: 15px;
+  margin: auto;
+}
+
+#signin-body {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+/* =================== MODIFY BOOTSTRAP ============= */
+.btn-success {
+  color: #fff;
+  background-color: #223237;
+  border-color: #223237;
+}
+
+.btn-success:hover {
+  color: #ffffff;
+  background-color: #156f71;
+  border-color: #156f71;
+}
+.btn-outline-success {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #156f71;
+}
+.text-primary {
+  color: #232f49 !important;
+}
+.btn-outline-success:hover {
+  color: #ffffff;
+  background-color: #156f71;
+  border-color: #156f71;
+}
+
+/* ========== */
+
+.img-rec {
+  height: 46px;
+  width: 46px;
+}
+
+.bg-green {
+  background-color: #16a085 !important;
+}
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.navbar-brand.logo {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.blog-header {
+  background: #16a085;
+  /* background-image: linear-gradient(135deg, #16a085, #4bbecf); */
+  background-image: linear-gradient(135deg, #16a085, #223237);
+  color: #fff;
+}
+.blog-header .title {
+  font-weight: 700;
+}
